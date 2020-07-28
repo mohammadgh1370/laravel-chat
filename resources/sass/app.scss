@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//fontawesome
+@import '~font-awesome/css/font-awesome';
+
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir.eot');
+  src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Vazir.woff2') format('woff2'),
+  url('../fonts/Vazir.woff') format('woff'),
+  url('../fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sans;
+  src: url('../fonts/IRANSans.ttf');
+  font-weight: normal;
+}
+
+.sans {
+  font-family: Sans;
+  font-size: 10pt;
+}
+
+.vazir {
+  font-family: Vazir;
+  font-size: 10pt;
+}
+
+.pointer{
+  cursor: pointer;
+}
