@@ -1,8 +1,8 @@
 <?php
 
 
-Route::get('/chat', 'ChatController@index');
+//Route::get('/chat', 'ChatController@index');
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/', 'ChatController@index')->name('home');
